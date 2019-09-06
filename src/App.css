@@ -1,24 +1,23 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 7s ease-in-out;
-  height: 7vmin;
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-@keyframes App-logo-spin {
+.logo {
+  animation: logo-spin infinite 7s ease-in-out;
+  height: 7vmin;
+}
+
+.usn {
+  user-select: none;
+}
+
+@keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }

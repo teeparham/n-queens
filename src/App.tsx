@@ -1,20 +1,17 @@
 import React from 'react';
 import './App.css';
+import Container from './Container';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div className="App bg-black-80">
       <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-      <header className="App-header">
+      <header className="">
         <h1>N Queens</h1>
-        <div className="dib">
-          <img src="logo.png" className="App-logo di mh2" alt="logo" />
-          <img src="logo.png" className="App-logo di mh2" alt="logo" />
-          <img src="logo.png" className="App-logo di mh2" alt="logo" />
-        </div>
       </header>
+      <Container />
     </div>
   );
-}
+};
 
 export default App;
