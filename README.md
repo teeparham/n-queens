@@ -1,3 +1,6 @@
+
+_Archived. See https://github.com/teeparham/next_
+
 # N Queens
 
 A solution to the N Queens problem, with React + Typescript.
